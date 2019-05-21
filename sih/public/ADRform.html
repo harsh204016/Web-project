@@ -1,0 +1,627 @@
+<!DOCTYPE HTML>
+<!--
+	Aqueous by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>MINISTRY OF AYUSH</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700italic,400,300,700' rel='stylesheet' type='text/css'>
+
+
+       
+     <!-- Firebase Script -->
+
+<script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAu68spBVGSgCMlvkz4jDPMiIyLQ-10kOU",
+    authDomain: "smart-india-hackathon-22be9.firebaseapp.com",
+    databaseURL: "https://smart-india-hackathon-22be9.firebaseio.com",
+    projectId: "smart-india-hackathon-22be9",
+    storageBucket: "smart-india-hackathon-22be9.appspot.com",
+    messagingSenderId: "601019472276"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+<!-- update the version number as needed -->
+    <script defer src="/__/firebase/5.8.2/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/5.8.2/firebase-auth.js"></script>
+    <script defer src="/__/firebase/5.8.2/firebase-database.js"></script>
+    <script defer src="/__/firebase/5.8.2/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/5.8.2/firebase-storage.js"></script>
+
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/5.8.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.0/firebase-firestore.js"></script>
+             <!-- Till-->
+
+             <script src="./js/index.js"></script>            
+
+<!--[if lte IE 8]><script src="js/html5shiv.js" type="text/javascript"></script><![endif]-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+
+		<style>
+			.cell{
+				width: 50px;
+				border-radius: 1px solid black;
+			}
+
+			.cells{
+				width: 125px;
+				height: 100px;
+			}
+		</style>
+	</head>
+	<body>
+
+	<!-- Header -->
+	<div id="header-wrapper">
+		<div id="header">
+			<div class="container">
+				<div id="logo"> <!-- Logo -->
+					<h1><a href="#">MINISTRY OF AYUSH</a></h1>
+					<span>government of India</span>
+				</div>
+			</div>
+			<div id="menu-wrapper">
+				<div class="container">
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Homepage</a></li>
+							<li><a href="left-sidebar.html">Guidelines</a></li>
+							<li><a href="right-sidebar.html">Reports</a></li>
+							<li class="active"><a href="no-sidebar.html">File ADR</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Header -->
+		
+	<!-- Main -->
+		<div id="main-wrapper">
+			<div class="container">
+				<div id="main">
+	
+					<div class="row">
+						<section>
+							<header>
+								<h2>	PHARMA COVIGILANCE OF </h2>
+								<h2>  AYURVEDA,SIDDHA,UNANI and HOMEOPATHY(ASU & H)DRUGS </h2>
+								<span class="byline">Reporting Form For Suspected Adverse Recations</span>
+							</header>
+
+							<h5>Note:-</h5>
+                                <ul type="disk" style="list-style: circle;">
+                                  <li>Personal information of the consumers/patients/ADR reprter's will be kept confidential.</li>
+                                  <li>All suspected reactions are to be reprted with relevant details.</li>
+                                  <li>All completed forms are to be submitted to the program coordinator of nearby centre</li>
+                                </ul>
+
+  <table style="border: 1px solid black;">
+	<tr><td colspan="2"style="border: 1px solid black;"><text style="text-align:center;"><h4>A/U/S/H</h4></text></td></tr>
+	<tr>
+	<td rowspan="5" style="border: 1px solid black;"><h4 style="text-align:center;">code</h4></td>
+	<td style="border: 1px solid black;">Ay-NIA/code of peripheral centre/ADR Number/Year</td>
+
+	</tr>
+	<tr>
+		<td style="border: 1px solid black;">Ay-IPGT/code of peripheral centre/ADR Number/Year</td>
+
+	</tr>
+	<tr>
+		<td style="border: 1px solid black;">
+			Un-NIUM/code of peripheral centre/ADR Number/Year
+		</td>
+	</tr>
+    <tr>
+    	<td style="border: 1px solid black;">Si-NIS/code of peripheral centre/ADR Number/Year</td>
+    </tr>
+    <tr>
+    	<td style="border: 1px solid black;">Ho-NIH/code of peripheral centre/ADR Number /Year</td>
+    </tr><br>
+  </table >
+  <br><br>
+  <hr>
+
+  <br><br>
+ <form>
+   	   <h2><b style="font-size: 20px;">1.Patient/consumer identification(please complete or tick boxes below as appropriate)</b></h2>
+       <br>
+	<table>
+	<tr>
+		<td colspan="2"> &nbsp; Name: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="text" id="pname"></td>
+		<td rowspan="2">&nbsp;Patient Record Number(PRN): &nbsp;<input type="text" name="prn-num" id="prnNum"></td>
+	</tr>
+	<tr><td><br></td></tr>
+	<tr>
+		<td>Place of Birth:&nbsp;&nbsp;<input type="date" id="dob"></td>
+		<td><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td>IPD/OPD:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" name="ipd-num" id="ipdNum"></td>
+    </tr>
+    <tr>
+    	<td colspan="2" rowspan="2" width="150">Address: &nbsp; &nbsp; &nbsp; &nbsp;<textarea id="pAddress" ></textarea>
+    		<br><br>Village/Town: &nbsp;<input type="text" id="village">
+    		<br><br>Post/Via: &nbsp;&nbsp;<input type="text" id="post">
+    		<br><br>District/State:&nbsp;<input type="text" id="state"><br><br>
+    	</td>
+    	<td>Age:&nbsp;<input type="Number" id="pAge"></td>
+    </tr>
+    <tr>
+    	<td>Sex: &nbsp;<select value="" id="sex">
+    		<option>Female</option>
+    		<option>Male</option>
+    	</select></td>
+    </tr>
+    <tr><td>Diagnosis: &nbsp;<input type="text" id="dia"></td>
+    <td colspan="2">Constitution and Temperament:<input type="text" id="cons"></td>
+    </tr>
+	</table><br>
+<hr>
+<br>
+
+<table border="2">
+	<h2><b style="font-size: 20px;">2.Description of the Suspected Adverse Reaction</b></h2>
+	<br>
+	<tr><td>Date and Time of Initial Observation:</td>&nbsp;
+		<td colspan="2">Date:&nbsp;<input type="Date" id="ddate">&nbsp;&nbsp;&nbsp;Time:&nbsp;<input type="Time" id="dtime"></td>
+	</tr>
+	<tr><td><br></td></tr>
+     <tr><td>Description of Rection: &nbsp;&nbsp; <textarea id="ddes"></textarea></td></tr>
+</table><br>
+<hr>
+<br>
+
+<h2 style="font-size: 20px;"><b>3.Whether the person is Suffering from any Chronic Disorder?</b></h2><b>(If yes,please specify)</b><br><br>
+ Hepatic<input type="checkbox" name="1" id="Hepatic">&nbsp;&nbsp;&nbsp;
+ Rental<input type="checkbox" name="1" id="Rental">&nbsp;&nbsp;&nbsp;
+ Cardiac<input type="checkbox" name="1" id="Cardiac">&nbsp;&nbsp;&nbsp;
+ Diabetec<input type="checkbox" name="1" id="Diabetec">&nbsp;&nbsp;&nbsp;
+ Any Others<input type="checkbox" name="1" id="AnyOthers">&nbsp;
+ <textarea id="mention"></textarea>
+ <br>
+ <hr>
+ <br>
+ <h2 style="font-size: 20px;"><b>4.Addictions if any?</b>If yes,please specify.<br><br><textarea  rows="2" cols="20" id="Addiction"></textarea></h2><br>
+ <hr>
+ <br>
+ <h2 style="font-size: 20px;"><b>5.H/O previous allergies/Drug Reactions,if any.</b>If yes,please specify.<br><br><textarea rows="2" cols="20" id="Allergy"></textarea></h2><br>
+ <hr>
+<br>
+ <h2 style="font-size: 20px;"><b>6.List of all ASU and H drugs used by the patient during the period of one month:</b></h2><br>
+
+ <table>
+<tr>
+		<td rowspan="2" class="cell"><b style="font-size: 16px;">Name of the Drug</b></td>
+        <td rowspan="2" class="cell"><b style="font-size: 16px;">Manufacturer/Batch no.</td>
+        <td rowspan="2" class="cell"><b style="font-size: 16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dose</b></td>
+        <td rowspan="2" class="cell"><b style="font-size: 16px;">Form/Route of Administration</b></td>
+        <td colspan="2" rowspan="2" class="cell">
+        	<table border="1"><tr><td colspan="2" class="cell"><b style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date of</b></td></tr>
+    		              <tr><td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Starting</b></td><td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stoped/Continued</b></td></tr>
+        </table>
+<td rowspan="2" class="cell"><b>&nbsp;&nbsp;&nbsp;Reason for use</b></td>
+<td rowspan="2" class="cell"><b>Any Unwanted Occurrences</b></td>
+ </tr>
+ <tr></tr>
+ <tr>
+ 	<td><textarea class="cells" id="drug1"></textarea></td>
+ 	<td><textarea class="cells" id="batch1"></textarea></td>
+ 	<td><textarea class="cells" id="dose1"></textarea></td>
+ 	<td><textarea class="cells" id="adminRoute1"></textarea></td>
+ 	<td><textarea class="cells" id="startDate1"></textarea></td>
+ 	<td><textarea class="cells" id="stopDate1"></textarea></td>
+ 	<td><textarea class="cells" id="reason1"></textarea></td>
+ 	<td><textarea class="cells" id="occurence1"></textarea></td>
+ </tr>
+ 
+ <tr>
+ 	<td><textarea class="cells" id="drug2"></textarea></td>
+ 	<td><textarea class="cells" id="batch2"></textarea></td>
+ 	<td><textarea class="cells" id="dose2"></textarea></td>
+ 	<td><textarea class="cells" id="adminRoute2"></textarea></td>
+ 	<td><textarea class="cells" id="startDate2"></textarea></td>
+ 	<td><textarea class="cells" id="stopDate2"></textarea></td>
+ 	<td><textarea class="cells" id="reason2"></textarea></td>
+ 	<td><textarea class="cells" id="occurence2"></textarea></td>
+ </tr>
+
+<tr>
+	<td><textarea class="cells" id="drug3"></textarea></td>
+	<td><textarea class="cells" id="batch3"></textarea></td>
+	<td><textarea class="cells" id="dose3"></textarea></td>
+	<td><textarea class="cells" id="adminRoute3"></textarea></td>
+	<td><textarea class="cells" id="startDate3"></textarea></td>
+	<td><textarea class="cells" id="stopDate3"></textarea></td>
+	<td><textarea class="cells" id="reason3"></textarea></td>
+	<td><textarea class="cells" id="occurence3"></textarea></td>
+</tr>
+
+
+<tr>
+	<td><textarea class="cells" id="drug4"></textarea></td>
+	<td><textarea class="cells" id="batch4"></textarea></td>
+	<td><textarea class="cells" id="dose4"></textarea></td>
+	<td><textarea class="cells" id="adminRoute4"></textarea></td>
+	<td><textarea class="cells" id="startDate4"></textarea></td>
+	<td><textarea class="cells" id="stopDate4"></textarea></td>
+	<td><textarea class="cells" id="reason4"></textarea></td>
+	<td><textarea class="cells" id="occurence4"></textarea></td>
+</tr>
+
+
+<tr>
+	<td><textarea class="cells" id="drug5"></textarea></td>
+	<td><textarea class="cells" id="batch5"></textarea></td>
+	<td><textarea class="cells" id="dose5"></textarea></td>
+	<td><textarea class="cells" id="adminRoute5"></textarea></td>
+	<td><textarea class="cells" id="startDate5"></textarea></td>
+	<td><textarea class="cells" id="stopDate5"></textarea></td>
+	<td><textarea class="cells" id="reason5"></textarea></td>
+	<td><textarea class="cells" id="occurence5"></textarea></td>
+</tr>
+
+
+<tr>
+	<td><textarea class="cells" id="drug6"></textarea></td>
+	<td><textarea class="cells" id="batch6"></textarea></td>
+	<td><textarea class="cells" id="dose6"></textarea></td>
+	<td><textarea class="cells" id="adminRoute6"></textarea></td>
+	<td><textarea class="cells" id="startDate6"></textarea></td>
+	<td><textarea class="cells" id="stopDate6"></textarea></td>
+	<td><textarea class="cells" id="reason6"></textarea></td>
+	<td><textarea class="cells" id="occurence6"></textarea></td>
+</tr>
+</table>
+<br>
+<hr>
+<br>
+<h2 style="font-size: 20px;"><b>7.List of other Drugs used by thr Patient During the period of one Month:</b></h2>
+<br>
+<table border="1">
+	<tr>
+		<td rowspan="2" class="cell"><b style="font-size: 16px;">Name of the Drug</b></td>
+        <td rowspan="2" class="cell"><b style="font-size: 16px;">Manufacturer/Batch no.</td>
+        <td rowspan="2" class="cell"><b style="font-size: 16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dose</b></td>
+        <td rowspan="2" class="cell"><b style="font-size: 16px;">Form/Route of Administration</b></td>
+        <td colspan="2" rowspan="2" class="cell">
+        	<table border="1"><tr><td colspan="2" class="cell"><b style="text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date of</b></td></tr>
+    		              <tr><td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Starting</b></td><td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stoped/Continued</b></td></tr>
+        </table>
+<td rowspan="2" class="cell"><b>&nbsp;&nbsp;&nbsp;Reason for use</b></td>
+<td rowspan="2" class="cell"><b>Any Unwanted Occurrences</b></td>
+ </tr>
+ <tr></tr>
+ <tr>
+ 	<td><textarea class="cells" id="drug7"></textarea></td>
+ 	<td><textarea class="cells" id="batch7"></textarea></td>
+ 	<td><textarea class="cells" id="dose7"></textarea></td>
+ 	<td><textarea class="cells" id="adminRoute7"></textarea></td>
+ 	<td><textarea class="cells" id="startDate7"></textarea></td>
+ 	<td><textarea class="cells" id="stopDate7"></textarea></td>
+ 	<td><textarea class="cells" id="reason7"></textarea></td>
+ 	<td><textarea class="cells" id="occurence7"></textarea></td>
+ </tr>
+ 
+ <tr>
+ 	<td><textarea class="cells" id="drug8"></textarea></td>
+ 	<td><textarea class="cells" id="batch8"></textarea></td>
+ 	<td><textarea class="cells" id="dose8"></textarea></td>
+ 	<td><textarea class="cells" id="adminRoute8"></textarea></td>
+ 	<td><textarea class="cells" id="startDate8"></textarea></td>
+ 	<td><textarea class="cells" id="stopDate8"></textarea></td>
+ 	<td><textarea class="cells" id="reason8"></textarea></td>
+ 	<td><textarea class="cells" id="occurence8"></textarea></td>
+ </tr>
+
+<tr>
+	<td><textarea class="cells" id="drug9"></textarea></td>
+ 	<td><textarea class="cells" id="batch9"></textarea></td>
+ 	<td><textarea class="cells" id="dose9"></textarea></td>
+ 	<td><textarea class="cells" id="adminRoute9"></textarea></td>
+ 	<td><textarea class="cells" id="startDate9"></textarea></td>
+ 	<td><textarea class="cells" id="stopDate9"></textarea></td>
+ 	<td><textarea class="cells" id="reason9"></textarea></td>
+ 	<td><textarea class="cells" id="occurence9"></textarea></td>
+</tr>
+
+<tr>
+	<td><textarea class="cells" id="drug10"></textarea></td>
+ 	<td><textarea class="cells" id="batch10"></textarea></td>
+ 	<td><textarea class="cells" id="dose10"></textarea></td>
+ 	<td><textarea class="cells" id="adminRoute10"></textarea></td>
+ 	<td><textarea class="cells" id="startDate10"></textarea></td>
+ 	<td><textarea class="cells" id="stopDate10"></textarea></td>
+ 	<td><textarea class="cells" id="reason10"></textarea></td>
+ 	<td><textarea class="cells" id="occurence10"></textarea></td>
+</tr>
+
+<tr>
+	<td><textarea class="cells" id="drug11"></textarea></td>
+ 	<td><textarea class="cells" id="batch11"></textarea></td>
+ 	<td><textarea class="cells" id="dose11"></textarea></td>
+ 	<td><textarea class="cells" id="adminRoute11"></textarea></td>
+ 	<td><textarea class="cells" id="startDate11"></textarea></td>
+ 	<td><textarea class="cells" id="stopDate11"></textarea></td>
+ 	<td><textarea class="cells" id="reason11"></textarea></td>
+ 	<td><textarea class="cells" id="occurence11"></textarea></td>
+</tr>
+
+<tr>
+	<td><textarea class="cells" id="drug12"></textarea></td>
+ 	<td><textarea class="cells" id="batch12"></textarea></td>
+ 	<td><textarea class="cells" id="dose12"></textarea></td>
+ 	<td><textarea class="cells" id="adminRoute12"></textarea></td>
+ 	<td><textarea class="cells" id="startDate12"></textarea></td>
+ 	<td><textarea class="cells" id="stopDate12"></textarea></td>
+ 	<td><textarea class="cells" id="reason12"></textarea></td>
+ 	<td><textarea class="cells" id="occurence12"></textarea></td>
+</tr>
+<br>
+</table>
+<br><br>
+<hr>
+<br>
+
+<h2 style="font-size: 20px;"><b>8.Details of Drugs Suspect to cause ADR:</b></h2>
+<br>
+<ol type="a" style="list-style:lower-alpha;">
+	<li>Name of the Drug: &nbsp;&nbsp;<br><textarea id="t1"></textarea></li><br>
+	<li>Manufacturing Date and Expiry Date(if available): &nbsp; &nbsp;<br><textarea id="t2"></textarea></li><br>
+	<li>Remaining pack/Label(if available):&nbsp;&nbsp;<br><textarea id="t3"></textarea></li><br>
+	<li>Consumed Orally along with()water/milk/honey/or any other:&nbsp;&nbsp;<br><textarea id="t4"></textarea></li><br>
+	<li>whether any dietary precautions have been prescribed?:&nbsp;&nbsp;<br>(if yes,please specify)<br><textarea id="t5"></textarea></li><br>
+	<li>whether the drug is consumed under medical supervision or used as self medication:&nbsp;&nbsp;<br><textarea id="t6"></textarea></li><br>
+	<li>Any other relevant information associated with drug use:&nbsp;&nbsp;<br><textarea id="t7"></textarea></li><br>
+	
+</ol>
+<br>
+<hr>
+<br>
+<h2 style="font-size: 20px;"><b>9.Management provided/taken for suspected adverse reactions:</b></h2><br>
+<textarea id="t8"></textarea>
+<br>
+<hr>
+<br>
+
+<h2 style="font-size: 20px;"><b>10.Please indicate outcome of the suspected adverse reaction(Tick Appropriate)</b></h2><br>
+<table border="1">
+	<tr>
+		<td>Recovered:</td><td>&nbsp;&nbsp;<input type="radio" name="adverse"></td>
+	</tr>
+	<tr><td><br></td></tr>
+	<tr>
+        <td>Not Recovered:</td><td> &nbsp;&nbsp;<input type="radio" name="adverse"></td>
+    </tr>
+    <tr><td><br></td></tr>
+    <tr>    
+        <td>Unknown:</td><td>&nbsp;&nbsp;<input type="radio" name="adverse"></td>
+    </tr>
+    <tr><td><br></td></tr>
+    <tr>    
+        <td>Fatal:</td><td>&nbsp;&nbsp;<input type="radio" name="adverse"></td>
+    </tr>
+    <tr><td><br></td></tr>
+    <tr>    
+        <td>If Fatal,Date of Birth:</td><td>&nbsp;&nbsp;<input type="radio" name="adverse"><input type="date" name=""></td>
+    </tr>
+    <tr><td><br></td></tr>
+    <tr>
+    	<td rowspan="3"><p style="text-align: center;">Serve:<select><option>Yes</option><option>No</option></select></p></td>
+        <td rowspan="2" colspan="4">Reaction Abated after drug stopped or Dose reduced:<br><textarea></textarea></td>
+    </tr>
+<tr></tr>
+<tr>
+<td colspan="4">Reaction Reappeared afer re admiistartion of drug:<br><textarea></textarea></td>
+</tr>
+<tr>
+	<td colspan="2">Was the patient admitted to hospital?if yes,give address and name of the hospital:&nbsp;&nbsp;</td>
+    <td colspan="3"><textarea></textarea></td>
+</tr>
+</table>
+<br>
+<hr>
+<br>
+<h2 style="font-size: 20px;"><b>11.If any abnormal findings of relevant laboratory investigations related to the episode done pre and post episode of ADR:</b></h2><br><textarea></textarea>
+<br><br>
+<hr>
+<br>
+<h2 style="font-size: 20px;"><b>12.Particulars of ADR reporter:</b></h2><br>
+<table border="1">
+	<tr>
+		<td>
+	 <b>Please choose:
+		<input type="radio" name="2">Patient
+		<input type="radio" name="2">Attendant
+		<input type="radio" name="2">Nurse
+		<input type="radio" name="2">Doctor
+		<input type="radio" name="2">Pharmacist
+		<input type="radio" name="2">Health Worker
+		<input type="radio" name="2">Drug Mnufacturer
+		<input type="radio" name="2">Any other
+	 </b>
+       </td>
+    </tr>
+     <tr><td><br></td></tr>
+    <tr>
+      <td>
+      	<b>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b><input type="text" name="name-candidate">
+      </td> 
+    </tr>
+    <tr><td><br></td></tr>
+    <tr>
+    	<td>
+    		<b>Address:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea></textarea>
+        </td>
+    </tr>
+    <tr><td><br></td></tr>
+    <tr>
+    	<td>
+    		<b>Telephone/E-Mail:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b><input type="number" name="phnnumber-candidate">
+    	</td>
+    </tr>
+</table>
+<br>
+<!-- <b>Signature of the reporter:<input type="Signature" name=""> --><b> Date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="Date" name=""></b></br>
+<br>
+<hr>
+<br>
+
+<h2 style="font-size: 25px;"><b>The ADR Portability Scale</b><br></h2>
+	<h5 style="font-size: 15px;">(Program Coordinator has to fill this scale)</h5>
+  <table border="1"><tr><td width="20"></td>
+	<td style="width:200;"><b>Questions</td>
+    <td><b style="text-align: center;">YES</b></td>
+    <td><b style="text-align: center;">NO</b></td>
+    <td><b style="text-align: center;">DON'T KNOW</b></td>
+</tr>
+<tr>
+	<td>1</td>
+	<td>Are there previous conclusive reports on the reactions?</td>
+    <td><input type="Number" name=""></td>
+    <td><input type="Number" name=""></td>
+    <td><input type="Number" name=""></td>
+</tr>
+<tr>
+	<td>2</td>
+    <td>Did the ADR appear after the suspected drug was administrative?</td>
+    <td><input type="Number" name="">
+    </td><td><input type="Number" name=""></td>
+    <td><input type="Number" name=""></td>
+</tr>
+<tr>
+	<td>3</td>
+    <td>Did the ADR improve when the drug was dicontinued a specific atagonist was administered?</td>
+    <td><input type="Number" name=""></td>
+    <td><input type="Number" name=""></td>
+    <td><input type="Number" name=""></td>
+</tr>
+<tr>
+	<td>4</td>
+    <td>Did the adverse reaction reappear when the drug was re-administered?</td>
+    <td><input type="Number" name=""></td>
+    <td><input type="Number" name=""></td>
+    <td><input type="Number" name=""></td>
+</tr>
+<tr>
+	<td>5</td>
+    <td>Are there alternatives causes that could solely have caused the ADR?</td>
+    <td><input type="Number" name=""></td>
+    <td><input type="Number" name=""></td>
+    <td><input type="Number" name=""></td>
+</tr>
+<tr>
+	<td>6</td>
+    <td>Was the drug detected in the blood?(or other fluids)in a concentration known to be toxic?</td>
+    <td><input type="Number" name=""></td>
+    <td><input type="Number" name=""></td>
+    <td><input type="Number" name=""></td>
+</tr>
+<tr>
+	<td>7</td>
+    <td>Was the reaction more severe when the drug was increased,or less severe when the drug was decreased?</td>
+    <td><input type="Number" name=""></td>
+    <td><input type="Number" name=""></td>
+    <td><input type="Number" name=""></td>
+</tr>
+<tr>
+	<td>8</td>
+    <td>Did the patient have a similar reaction to the same or similar drug in any previous exposure?</td>
+    <td><input type="Number" name=""></td>
+    <td><input type="Number" name=""></td>
+    <td><input type="Number" name=""></td>
+</tr>
+<tr>
+	<td>9</td>
+    <td>Was the adverse event confirmed by the objective evidence? </td>
+    <td><input type="Number" name=""></td>
+    <td><input type="Number" name=""></td>
+    <td><input type="Number" name=""></td>
+</tr>
+<tr>
+	<td></td>
+	<td>TOTAL</td>
+	<td><input type="Number" name=""></td>
+	<td><input type="Number" name=""></td>
+    <td><input type="Number" name=""></td>
+<tr>
+</table>
+</form>
+<br>
+<u>score</u>=certain;&nbsp;
+5-8=Probable;&nbsp;
+1-4=Possible;&nbsp;
+0-unlikely;
+<br>
+<!-- <p align="right">Signature<input type="Signature"><br>Program Cordintor
+</p> --> 
+      <button style="align:center;" onclick=" submitForm() ">SUBMIT</button>
+
+							
+						
+						</section>
+					</div>
+				
+				</div>
+			</div>
+		</div>
+	<!-- /Main -->
+
+	<!-- Footer -->
+		<div class="container">
+			<div id="footer">
+				<div class="row">
+					<section class="4u">
+						<h2 style="font-size: 25px;"><b>Contact Us</b></h2><br><br>
+						<h2 style="font-size: 20px"> MINISTRY OF AYUSH</h2><br>
+						<h3>AYUSH BHAWAN, B Block, GPO Complex, INA, NEW DELHI - 110023</h3>
+				
+					</section>
+					<section class="4u">
+						<br><br><br>
+						<h2 style="font-size: 20px"> Web Information Manager</h2><br>
+						<h3>Dr. I.G. Mondal, Assistant Adviser(Homeopathy)<br>
+
+                        Contact no - 1800-11-22-02 (9:00 AM to 5:30 PM) (IST) 
+                         Email: webmanager-ayush@gov.in </h3>
+					</section>
+					<section class="4u">
+						
+					</section>
+				</div>
+			</div>
+		</div>
+	<!-- /Footer -->
+
+	<!-- Copyright -->
+		<div id="copyright">
+			<div class="container">
+				copyright &copy; Mindbenders
+			</div>
+		</div>
+
+
+	</body>
+</html>

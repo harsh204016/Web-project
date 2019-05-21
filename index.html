@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome To Ministry Of Ayush</title>
+
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAY7jG36QHXaC5vUPh-iE3Eww2Vy_MHb-Y",
+    authDomain: "covigilance-7827d.firebaseapp.com",
+    databaseURL: "https://covigilance-7827d.firebaseio.com",
+    projectId: "covigilance-7827d",
+    storageBucket: "covigilance-7827d.appspot.com",
+    messagingSenderId: "354598966821"
+  };
+  firebase.initializeApp(config);
+</script>
+	<script src="./js/index.js"></script>
+</head>
+<body>
+	<h1>Welcome To Ministry Of Ayush</h1>
+	<div id="container">
+		EMAIL:<input type="email" id="txtEmail">
+            <br>
+		PASSWORD:<input type="password" id="txtpass">
+            <br>
+            	CATEGORY:<select id="identity" required>
+  	<option id="0" value="-1">Select</option>
+  	<option id="1" value="1">Peripheral Center</option>
+  	<option id="2" value="2">National Center</option>
+  	
+  </select><br>
+	<button type="button" id="btnSignUp" onclick="SignUp()">SignUp</button>
+   	<button type="button" id="btnLogIn" onclick="LogInClick()">LogIn</button>
+
+   
+   </div>
+
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Ministry of Ayush</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|PT+Serif:700" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAY7jG36QHXaC5vUPh-iE3Eww2Vy_MHb-Y",
+    authDomain: "covigilance-7827d.firebaseapp.com",
+    databaseURL: "https://covigilance-7827d.firebaseio.com",
+    projectId: "covigilance-7827d",
+    storageBucket: "covigilance-7827d.appspot.com",
+    messagingSenderId: "354598966821"
+  };
+  firebase.initializeApp(config);
+</script>
+	<script src="./js/index.js"></script>
+</head>
+<body class="is-boxed has-animations">
+    <div class="body-wrap boxed-container">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+                            <a href="#">
+                                <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                    <title>Welcome</title>
+                                    <defs>
+                                        <radialGradient cy="0%" fx="50%" fy="0%" r="100%" id="logo-gradient">
+                                            <stop stop-color="#FFF" offset="0%"/>
+                                            <stop stop-color="#FFF" stop-opacity=".24" offset="100%"/>
+                                        </radialGradient>
+                                    </defs>
+                                    <!--<path d="M16 32C7.163 32 0 24.837 0 16S7.163 0 16 0s16 7.163 16 16-7.163 16-16 16zm0-10a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" fill="url(#logo-gradient)" fill-rule="evenodd"/>-->
+                                </svg>
+                            </a>
+                        </h1>
+                    </div>
+                    <ul class="header-links list-reset m-0">
+                        <li>
+                           
+                        </li>
+                        <li>
+                            
+                        </li>
+						<li>
+						<b style="color: white;">CATEGORY:&nbsp;</b><select name="category" id="identity">
+						<option value="-1" id="-1">Select</option>
+						<option value="1" id="1">NATIONAL CENTER</option>
+						<option value="2" id="2">PERIPHERAL CENTER</option>
+						<option value="3" id="3">DOCTOR</option>
+						</select></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero text-light text-center">
+                <div class="container-sm">
+                    <div class="hero-inner">
+					
+                        <h1 class="hero-title h2-mobile mt-0 is-revealing">Welcome to<br>Ministry Of Ayush</h1>
+                        <p class="hero-paragraph is-revealing">The Ministry of Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homoeopathy</p>
+                        <table><tr><td><p class="hero-cta is-revealing"><button onclick="welcome1()" id="btnSignUp">SIGN UP</button></p></td>
+						<td><p class="hero-cta is-revealing"><button onclick="welcome2()" id="btnLogIn">LOG IN</button></p></td></tr></table>
+						
+						
+                        <div class="hero-media">
+			              <img src="./images/emblem-dark.png" height="50px" width="50px" style="margin-left:350px;padding-top:5px;"><br>
+			              <h5><b style="color:black;"><br>Ministry of Ayush, Government of India was established in 2014 to ensure<br> the development and propagation of AYUSH systems of medicine<br> and health care.</b></h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+
+            <section class="features section text-center">
+                <div class="container">
+                    <div class="features-inner section-inner has-top-divider">
+                        <h5 class="section-title mt-0"></h2>
+                        <div class="features-wrap">
+                            <div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+                                            <g fill="none" fill-rule="evenodd">
+                                                <path fill="#84E482" d="M48 16v32H16z"/>
+                                                <path fill="#0EB3CE" d="M0 0h32v32H0z"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+									<a href="https://www.digitalindia.gov.in/"><img src="./images/dig.jpg"></a>
+                                    </div>
+                            </div>
+                            <div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+                                            <g fill="none" fill-rule="evenodd">
+                                                <path fill="#84E482" d="M48 16v32H16z"/>
+                                                <path fill="#0EB3CE" d="M0 0v32h32z"/>
+                                                <circle fill="#02C6A4" cx="29" cy="9" r="4"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <a href="#"><img src="./images/dry.jpg"></a>
+                                </div>
+                            </div>
+                            <div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+                                            <g fill="none" fill-rule="evenodd">
+                                                <path fill="#0EB3CE" d="M0 0h32v32H0z"/>
+                                                <path fill="#84E482" d="M16 16h32L16 48z"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <a href=#><img src="./images/gov.png"></a>
+                                </div>
+                            </div>
+                            <div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+                                            <g fill="none" fill-rule="evenodd">
+                                                <path d="M32 40H0c0-8.837 7.163-16 16-16s16 7.163 16 16z" fill="#84E482" style="mix-blend-mode:multiply"/>
+                                                <path fill="#03C5A4" d="M12 8h8v8h-8z"/>
+                                                <path fill="#0EB3CE" d="M32 0h16v48H32z"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                   <a href=""><img src="./images/log.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+    <script src="dist/js/main.min.js"></script>
+</body>
+</html>
